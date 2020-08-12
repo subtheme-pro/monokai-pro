@@ -3438,7 +3438,7 @@
         </option>
         <option name="TAB_SELECTED_INACTIVE">
             <value>
-                <option name="FOREGROUND" value="{{colors.base5}}" />
+                <option name="FOREGROUND" value="{{colors.base6}}" />
             </value>
         </option>
         <option name="TEMPLATE_VARIABLE_ATTRIBUTES">

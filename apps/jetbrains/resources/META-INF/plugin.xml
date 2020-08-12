@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
-  <version>0.8</version>
+  <version>0.9</version>
   <vendor url="https://thematic.dev">Thematic</vendor>
 
   <description>
