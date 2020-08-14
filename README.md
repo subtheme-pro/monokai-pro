@@ -8,5 +8,5 @@ Supported apps:
 To build the theme, use [subtheme](https://github.com/subtheme-pro/subtheme):
 
 ```shell script
-$ python subtheme.py build .
+$ python subtheme.py build <path>
 ```
