@@ -1,24 +1,24 @@
 <idea-plugin>
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
-  <version>0.9</version>
-  <vendor url="https://thematic.dev">Thematic</vendor>
+  <version>0.9.1</version>
+  <vendor url="https://subtheme.pro">Subtheme</vendor>
 
   <description>
     <![CDATA[
-      The unofficial Monokai Pro theme, adapted for JetBrains by <a href="https://thematic.dev">Thematic</a>. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
+      The unofficial Monokai Pro theme, adapted for JetBrains by <a href="https://subtheme.pro">Subtheme</a>. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
       <br/><br/>
-      Contribute with GitHub: <a href="https://github.com/thematic-dev/monokai-pro">https://github.com/thematic-dev/monokai-pro</a>
+      Contribute with GitHub: <a href="https://github.com/subtheme-pro/monokai-pro">https://github.com/subtheme-pro/monokai-pro</a>
       <br/><br/>
-      <img src="https://raw.githubusercontent.com/thematic-dev/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="320">
+      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="320">
       <br/>
-      <img src="https://raw.githubusercontent.com/thematic-dev/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="320">
+      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="320">
       <br/>
-      <img src="https://raw.githubusercontent.com/thematic-dev/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="320">
+      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="320">
       <br/>
-      <img src="https://raw.githubusercontent.com/thematic-dev/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="320">
+      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="320">
       <br/>
-      <img src="https://raw.githubusercontent.com/thematic-dev/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="320">
+      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="320">
     ]]>
   </description>
 
