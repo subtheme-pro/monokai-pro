@@ -2,11 +2,11 @@
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
   <version>0.9.1</version>
-  <vendor url="https://subtheme.pro">Subtheme</vendor>
+  <vendor url="https://subtheme.pro">Thematic</vendor>
 
   <description>
     <![CDATA[
-      The unofficial Monokai Pro theme, adapted for JetBrains by <a href="https://subtheme.pro">Subtheme</a>. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
+      The unofficial Monokai Pro theme, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
       <br/><br/>
       Contribute with GitHub: <a href="https://github.com/subtheme-pro/monokai-pro">https://github.com/subtheme-pro/monokai-pro</a>
       <br/><br/>
