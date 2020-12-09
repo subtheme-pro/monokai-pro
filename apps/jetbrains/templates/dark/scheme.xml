@@ -566,7 +566,7 @@
         <option name="DEFAULT_KEYWORD">
             <value>
                 <option name="FOREGROUND" value="{{colors.red}}" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FONT_TYPE" value="0" />
             </value>
         </option>
         <option name="DEFAULT_LABEL">
@@ -2831,7 +2831,7 @@
         <option name="PY.KEYWORD">
             <value>
                 <option name="FOREGROUND" value="{{colors.red}}" />
-                <option name="FONT_TYPE" value="2" />
+                <option name="FONT_TYPE" value="0" />
             </value>
         </option>
         <option name="PY.KEYWORD_ARGUMENT">
