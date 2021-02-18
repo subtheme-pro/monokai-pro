@@ -38,25 +38,25 @@
       "arc": 0,
       "background": "{{colors.base3}}",
       "default": {
-        "endBackground": "{{colors.base8x0c}}",
-        "endBorderColor": "{{colors.base8x0c}}",
+        "endBackground": "{{colors.base3}}",
+        "endBorderColor": "{{colors.base3}}",
         "foreground": "{{colors.yellow}}",
         "focusColor": "{{colors.yellow}}",
-        "focusedBorderColor": "{{colors.base8x0c}}",
-        "shadowColor": "{{colors.base8x0c}}",
-        "startBackground": "{{colors.base8x0c}}",
-        "startBorderColor": "{{colors.base8x0c}}"
+        "focusedBorderColor": "{{colors.base3}}",
+        "shadowColor": "{{colors.base3}}",
+        "startBackground": "{{colors.base3}}",
+        "startBorderColor": "{{colors.base3}}"
       },
-      "disabledBorderColor": "{{colors.base8x0c}}",
+      "disabledBorderColor": "{{colors.base3}}",
       "disabledText": "{{colors.base4}}",
-      "endBackground": "{{colors.base8x0c}}",
-      "endBorderColor": "{{colors.base8x0c}}",
-      "focusedBorderColor": "{{colors.base8x0c}}",
-      "foreground": "{{colors.base6}}",
-      "shadowColor": "{{colors.base8x0c}}",
+      "endBackground": "{{colors.base3}}",
+      "endBorderColor": "{{colors.base3}}",
+      "focusedBorderColor": "{{colors.base3}}",
+      "foreground": "{{colors.base8}}",
+      "shadowColor": "{{colors.base3}}",
       "shadowWidth": 0,
-      "startBackground": "{{colors.base8x0c}}",
-      "startBorderColor": "{{colors.base8x0c}}"
+      "startBackground": "{{colors.base3}}",
+      "startBorderColor": "{{colors.base3}}"
     },
     "CheckBox": {
       "background": "{{colors.base2}}",
@@ -104,8 +104,8 @@
     "CompletionPopup": {
       "foreground": "{{colors.base8}}",
       "matchForeground": "{{colors.yellow}}",
-      "selectionInactiveBackground": "{{colors.base5}}",
-      "selectionBackground": "{{colors.base5}}"
+      "selectionInactiveBackground": "{{colors.base2}}",
+      "selectionBackground": "{{colors.base2}}"
     },
     "Component": {
       "arc": 4,
@@ -242,7 +242,7 @@
       "selectionForeground": "{{colors.yellow}}"
     },
     "MenuBar": {
-      "borderColor": "{{colors.base2}}",
+      "borderColor": "{{colors.base8x0c}}",
       "disabledBackground": "{{colors.base2}}",
       "disabledForeground": "{{colors.base4}}",
       "foreground": "{{colors.base8}}",
@@ -316,6 +316,7 @@
       "disabledForeground": "{{colors.base6}}",
       "eapTagBackground": "{{colors.base4}}",
       "lightSelectionBackground": "{{colors.base8x0c}}",
+      "hoverBackground": "{{colors.base8x0c}}",
       "tagForeground": "{{colors.yellow}}",
       "tagBackground": "{{colors.base4}}",
       "Button": {
