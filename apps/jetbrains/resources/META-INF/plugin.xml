@@ -1,41 +1,40 @@
 <idea-plugin>
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
-  <version>1.0</version>
   <vendor url="https://subtheme.pro">Subtheme</vendor>
-
-  <change-notes><![CDATA[
-     <h3>1.0</h3>
-     <ul>
-       <li>Fixed callback line color when debugging</li>
-       <li>Fixed suggestion hint selected line color</li>
-       <li>Fixed application border color in Linux</li>
-       <li>Fixed button borders</li>
-       <li>Fixed plugin hover background</li>
-     </ul>
-    ]]>
-  </change-notes>
-  <description>
-    <![CDATA[
-      The unofficial Monokai Pro theme by <a href="https://subtheme.pro">Subtheme</a>, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
-      <br/><br/>
-      Contribute with GitHub: <a href="https://github.com/subtheme-pro/monokai-pro">https://github.com/subtheme-pro/monokai-pro</a>
-      <br/><br/>
-      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360">
-      <br/>
-      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360">
-      <br/>
-      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360">
-      <br/>
-      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360">
-      <br/>
-      <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360">
-    ]]>
-  </description>
-
-  <idea-version since-build="191.0"/>
+  <version>1.0</version>
 
   <depends>com.intellij.modules.lang</depends>
+  <idea-version since-build="191.0"/>
+
+  <change-notes><![CDATA[
+    <h3>1.0</h3>
+    <ul>
+      <li>Fixed callback line color when debugging</li>
+      <li>Fixed suggestion hint selected line color</li>
+      <li>Fixed application border color in Linux</li>
+      <li>Fixed button borders</li>
+      <li>Fixed plugin hover background</li>
+    </ul>
+  ]]>
+  </change-notes>
+
+  <description><![CDATA[
+    The unofficial Monokai Pro theme by <a href="https://subtheme.pro">Subtheme</a>, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
+    <br/><br/>
+    Contribute with GitHub: <a href="https://github.com/subtheme-pro/monokai-pro">https://github.com/subtheme-pro/monokai-pro</a>
+    <br/><br/>
+    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360">
+    <br/>
+    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360">
+    <br/>
+    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360">
+    <br/>
+    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360">
+    <br/>
+    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360">
+  ]]>
+  </description>
 
   <extensions defaultExtensionNs="com.intellij">
     <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/monokai-pro-machine.theme.json"/>
