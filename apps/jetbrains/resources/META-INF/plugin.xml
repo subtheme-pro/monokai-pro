@@ -2,12 +2,16 @@
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
   <vendor url="https://subtheme.pro">Subtheme</vendor>
-  <version>1.0</version>
+  <version>1.1</version>
 
   <depends>com.intellij.modules.lang</depends>
   <idea-version since-build="191.0"/>
 
   <change-notes><![CDATA[
+  <h3>1.1</h3>
+    <ul>
+      <li>Fixed selection foreground color</li>
+    </ul>
     <h3>1.0</h3>
     <ul>
       <li>Fixed callback line color when debugging</li>
@@ -22,7 +26,7 @@
   <description><![CDATA[
     The unofficial Monokai Pro theme by <a href="https://subtheme.pro">Subtheme</a>, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
     <br/><br/>
-    Contribute with GitHub: <a href="https://github.com/subtheme-pro/monokai-pro">https://github.com/subtheme-pro/monokai-pro</a>
+    Contribute with <a href="https://github.com/subtheme-pro/monokai-pro">GitHub</a>. Screenshots taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a>.
     <br/><br/>
     <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360">
     <br/>

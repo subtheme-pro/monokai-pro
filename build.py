@@ -14,7 +14,7 @@ def build_jetbrains(theme_path, build_path):
         with open(os.path.join(theme_path, "colors", filename), 'r') as f:
             data = yaml.safe_load(f)
             colors = {}
-            for k,v in data["colors"].items():
+            for k, v in data["colors"].items():
                 colors[k] = "#" + str(v).replace('x', '')
             data["colors"] = colors
 
