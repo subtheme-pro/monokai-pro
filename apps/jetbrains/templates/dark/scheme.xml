@@ -58,7 +58,6 @@
         <option name="SELECTED_INDENT_GUIDE" value="{{colors.blue}}" />
         <option name="SELECTED_TEARLINE_COLOR" value="{{colors.yellow}}" />
         <option name="SELECTION_BACKGROUND" value="{{colors.base3}}" />
-        <option name="SELECTION_FOREGROUND" value="ffffff" />
         <option name="SEPARATOR_ABOVE_COLOR" value="{{colors.base8x0c}}" />
         <option name="SEPARATOR_BELOW_COLOR" value="{{colors.base8x0c}}" />
         <option name="SOFT_WRAP_SIGN_COLOR" value="{{colors.base3}}" />
@@ -3454,7 +3453,7 @@
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="{{colors.base3}}" />
+                <option name="FOREGROUND" value="ffffff" />
                 <option name="BACKGROUND" value="f8e71c" />
             </value>
         </option>
