@@ -7,7 +7,5 @@ Supported apps:
 
 To build, use the [subtheme](https://github.com/subtheme-pro/subtheme) tool:
 
-```shell script
-$ pip install subtheme
-$ subtheme build .
-```
+    pip install subtheme
+    subtheme build .
