@@ -5,7 +5,7 @@ The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.pro). T
 Supported apps:
 - [JetBrains](https://github.com/subtheme-pro/monokai-pro/tree/master/apps/jetbrains)
 
-To build, use the `subtheme` tool:
+To build, use the [subtheme](https://github.com/subtheme-pro/subtheme) tool:
 
 ```shell script
 $ pip install subtheme
