@@ -41,10 +41,10 @@
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/monokai-pro-machine.theme.json"/>
-    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/monokai-pro-octagon.theme.json"/>
-    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/monokai-pro-ristretto.theme.json"/>
-    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/monokai-pro-spectrum.theme.json"/>
-    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/monokai-pro.theme.json"/>
+    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/machine.json"/>
+    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/octagon.json"/>
+    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/ristretto.json"/>
+    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/spectrum.json"/>
+    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/default.json"/>
   </extensions>
 </idea-plugin>

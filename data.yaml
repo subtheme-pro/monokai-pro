@@ -1,0 +1,112 @@
+themes:
+  default:
+    name: Monokai Pro
+    # all colors were pulled from the official vscode extension
+    colors:
+      # primary colors
+      red: ff6188
+      orange: fc9867
+      yellow: ffd866
+      green: a9dc76
+      blue: 78dce8
+      purple: ab9df2
+      # base colors, sorted from darkest to lightest
+      base0: 19181a
+      base1: 221f22
+      base2: 2d2a2e
+      base3: 403e41
+      base4: 5b595c
+      base5: 727072
+      base6: 939293
+      base7: c1c0c0
+      base8: fcfcfa
+      # variants (for when transparency isn't supported)
+      base8x0c: 363337 # using base2 as bg
+  machine:
+    name: Monokai Pro (Filter Machine)
+    colors:
+      # primary colors
+      red: ff6d7e
+      orange: ffb270
+      yellow: ffed72
+      green: a2e57b
+      blue: 7cd5f1
+      purple: baa0f8
+      # base colors
+      base0: 161b1e
+      base1: 1d2528
+      base2: 273136
+      base3: 3a4449
+      base4: 545f62
+      base5: 6b7678
+      base6: 798384
+      base7: b8c4c3
+      base8: f2fffc
+      # variants
+      base8x0c: 303a3e
+  octagon:
+    name: Monokai Pro (Filter Octagon)
+    colors:
+      # primary colors
+      red: ff657a
+      orange: ff9b5e
+      yellow: ffd76d
+      green: bad761
+      blue: 9cd1bb
+      purple: c39ac9
+      # base colors
+      base0: 161821
+      base1: 1e1f2b
+      base2: 282a3a
+      base3: 3a3d4b
+      base4: 535763
+      base5: 696d77
+      base6: 767b81
+      base7: b2b9bd
+      base8: eaf2f1
+      # variants
+      base8x0c: 303342
+  ristretto:
+    name: Monokai Pro (Filter Ristretto)
+    colors:
+      # primary colors
+      red: fd6883
+      orange: f38d70
+      yellow: f9cc6c
+      green: adda78
+      blue: 85dacc
+      purple: a8a9eb
+      # base colors
+      base0: 191515
+      base1: 211c1c
+      base2: 2c2525
+      base3: 403838
+      base4: 5b5353
+      base5: 72696a
+      base6: 8c8384
+      base7: c3b7b8
+      base8: fff1f3
+      # variants
+      base8x0c: 352e2e
+  spectrum:
+    name: Monokai Pro (Filter Spectrum)
+    colors:
+      # primary colors
+      red: fc618d
+      orange: fd9353
+      yellow: fce566
+      green: 7bd88f
+      blue: 5ad4e6
+      purple: 948ae3
+      # base colors
+      base0: 131313
+      base1: 191919
+      base2: 222222
+      base3: 363537
+      base4: 525053
+      base5: 69676c
+      base6: 8b888f
+      base7: bab6c0
+      base8: f7f1ff
+      # variants
+      base8x0c: 2b2b2b

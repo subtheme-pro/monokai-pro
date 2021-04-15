@@ -1,0 +1,5 @@
+{% with %}
+{% set slug = "ristretto"  %}
+{% set theme = data["themes"][slug]  %}
+{% include "template.json" %}
+{% endwith %}

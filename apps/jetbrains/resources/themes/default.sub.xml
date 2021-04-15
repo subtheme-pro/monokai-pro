@@ -1,0 +1,5 @@
+{% with %}
+{% set slug = "default"  %}
+{% set theme = data["themes"][slug]  %}
+{% include "template.xml" %}
+{% endwith %}
