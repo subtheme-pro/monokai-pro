@@ -1,5 +1,0 @@
-{% with %}
-{% set slug = "machine"  %}
-{% set theme = data["themes"][slug]  %}
-{% include "template.xml" %}
-{% endwith %}

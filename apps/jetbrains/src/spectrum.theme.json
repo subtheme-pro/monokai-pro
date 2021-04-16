@@ -1,0 +1,9 @@
+{% with %}
+
+{% set theme="spectrum" %}
+{% set name=themes[theme]["name"] %}
+{% set colors=themes[theme]["colors"] %}
+
+{% include "templates/theme.json" %}
+
+{% endwith %}
