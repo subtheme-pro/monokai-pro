@@ -7,7 +7,7 @@ This theme if functionally complete, but more work is needed to match language s
 Supported apps:
 - [JetBrains](https://github.com/subtheme-pro/monokai-pro/tree/master/apps/jetbrains)
 
-To build, use the (still experimental) tool [sublate](https://github.com/sublate-dev/sublate):
+To build, use the (still experimental) tool [sublate](https://github.com/jontaydev/sublate):
 
     pip install sublate
     sublate 
