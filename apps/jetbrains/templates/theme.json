@@ -2,7 +2,7 @@
   "name": "{{name}}",
   "dark": true,
   "author": "Subtheme",
-  "editorScheme": "/themes/{{theme}}.xml",
+  "editorScheme": "/colors/{{theme}}.xml",
   "ui": {
     "*": {
       "acceleratorSelectionForeground": "{{colors.yellow}}",

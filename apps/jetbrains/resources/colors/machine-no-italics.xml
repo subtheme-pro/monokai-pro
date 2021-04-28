@@ -1,8 +1,9 @@
 {% with %}
 
-{% set theme="default" %}
-{% set name=themes[theme]["name"] %}
+{% set theme="machine" %}
+{% set name=themes[theme]["name"] + " - No Italics" %}
 {% set colors=themes[theme]["colors"] %}
+{% set italics=False %}
 
 {% include "templates/scheme.xml" %}
 

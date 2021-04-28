@@ -1,8 +1,9 @@
 {% with %}
 
-{% set theme="machine" %}
+{% set theme="octagon" %}
 {% set name=themes[theme]["name"] %}
 {% set colors=themes[theme]["colors"] %}
+{% set italics=True %}
 
 {% include "templates/scheme.xml" %}
 

@@ -1,0 +1,10 @@
+{% with %}
+
+{% set theme="machine" %}
+{% set name=themes[theme]["name"] %}
+{% set colors=themes[theme]["colors"] %}
+{% set italics=True %}
+
+{% include "templates/scheme.xml" %}
+
+{% endwith %}

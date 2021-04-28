@@ -2,13 +2,17 @@
   <id>monokai-pro</id>
   <name>Monokai Pro Theme</name>
   <vendor url="https://subtheme.pro">Subtheme</vendor>
-  <version>1.1</version>
+  <version>1.2</version>
 
   <depends>com.intellij.modules.lang</depends>
   <idea-version since-build="191.0"/>
 
   <change-notes><![CDATA[
-  <h3>1.1</h3>
+    <h3>1.2</h3>
+    <ul>
+      <li>Added no-italics themes</li>
+    </ul>
+    <h3>1.1</h3>
     <ul>
       <li>Fixed selection foreground color</li>
     </ul>
@@ -23,28 +27,33 @@
   ]]>
   </change-notes>
 
-  <description><![CDATA[
-    The unofficial Monokai Pro theme by <a href="https://subtheme.pro">Subtheme</a>, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
-    <br/><br/>
-    Contribute with <a href="https://github.com/subtheme-pro/monokai-pro">GitHub</a>. Screenshots taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a>.
-    <br/><br/>
-    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360">
-    <br/>
-    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360">
-    <br/>
-    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360">
-    <br/>
-    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360">
-    <br/>
-    <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360">
+  <description>
+  <![CDATA[
+  The unofficial Monokai Pro theme by <a href="https://subtheme.pro">Subtheme</a>, adapted for JetBrains. This plugin includes the default theme and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: <a href="https://monokai.pro">https://monokai.pro</a>.
+  <br/><br/>
+  An no-italics version is also available. To enable, go to Settings, select Editor/Color Scheme, and choose your preferred Scheme from the dropdown (for example, "Monokai Pro - No Italics").
+  <br/><br/>
+  Source is on <a href="https://github.com/subtheme-pro/monokai-pro">GitHub</a>. Screenshots taken with <a href="https://plugins.jetbrains.com/plugin/10044-atom-material-icons">Atom Material Icons</a> and <a href="https://www.typography.com/fonts/operator/styles">Operator Mono</a>.
+  <br/><br/>
+  <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-machine-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-octagon-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-ristretto-small.png" border="0" width="360"/><br/>
+  <img src="https://raw.githubusercontent.com/subtheme-pro/monokai-pro/master/apps/jetbrains/screenshots/monokai-pro-spectrum-small.png" border="0" width="360"/><br/>
   ]]>
   </description>
 
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/machine.json"/>
-    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/octagon.json"/>
-    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/ristretto.json"/>
-    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/spectrum.json"/>
-    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/default.json"/>
+    <themeProvider id="96c210a3-cc3b-47c2-ba0f-6de6f50c18a3" path="/machine.theme.json"/>
+    <themeProvider id="342c21d9-7947-4ea7-8291-d4fd4e96fa36" path="/octagon.theme.json"/>
+    <themeProvider id="76cc8066-d21c-4e4c-8583-1b3f22e90e8f" path="/ristretto.theme.json"/>
+    <themeProvider id="ddd7798e-8bd6-4aa2-8345-a08190090321" path="/spectrum.theme.json"/>
+    <themeProvider id="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" path="/default.theme.json"/>
+
+    <bundledColorScheme path="/colors/machine-no-italics"/>
+    <bundledColorScheme path="/colors/octagon-no-italics"/>
+    <bundledColorScheme path="/colors/ristretto-no-italics"/>
+    <bundledColorScheme path="/colors/spectrum-no-italics"/>
+    <bundledColorScheme path="/colors/default-no-italics"/>
   </extensions>
 </idea-plugin>

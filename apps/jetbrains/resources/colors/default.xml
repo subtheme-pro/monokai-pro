@@ -1,8 +1,9 @@
 {% with %}
 
-{% set theme="ristretto" %}
+{% set theme="default" %}
 {% set name=themes[theme]["name"] %}
 {% set colors=themes[theme]["colors"] %}
+{% set italics=True %}
 
 {% include "templates/scheme.xml" %}
 
