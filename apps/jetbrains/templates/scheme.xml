@@ -3687,8 +3687,8 @@
         </option>
         <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
             <value>
-                <option name="FOREGROUND" value="ffffff" />
-                <option name="BACKGROUND" value="f8e71c" />
+                <option name="FOREGROUND" value="{{colors.base8}}" />
+                <option name="BACKGROUND" value="{{colors.base4}}" />
             </value>
         </option>
         <option name="TODO_DEFAULT_ATTRIBUTES">
