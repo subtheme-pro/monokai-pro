@@ -589,7 +589,7 @@
         </option>
         <option name="DEFAULT_KEYWORD">
             <value>
-                <option name="FOREGROUND" value="{{colors.blue}}" />
+                <option name="FOREGROUND" value="{{colors.red}}" />
                 <option name="FONT_TYPE" value="0" />
             </value>
         </option>
